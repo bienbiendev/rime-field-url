@@ -1,13 +1,13 @@
 {
-	"name": "@rizom/field-url",
+	"name": "@bienbien/rime-field-url",
 	"version": "0.2.2",
-	"homepage": "https://github.com/bienoubien-studio/rizom-field-url",
+	"homepage": "https://github.com/bienbiendev/rime-field-url",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "npx rizom clear --force && vite build && npm run prepack",
+		"build": "npx rime clear --force && vite build && npm run prepack",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"prepack": "npx rizom clear --force && svelte-kit sync && svelte-package && publint",
+		"prepack": "npx rime clear --force && svelte-kit sync && svelte-package && publint",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
@@ -61,15 +61,13 @@
 	],
 	"pnpm": {
 		"onlyBuiltDependencies": [
-			"better-sqlite3",
 			"sharp"
 		]
 	},
 	"dependencies": {
+		"@bienbien/rime": "^0.20.1",
 		"@lucide/svelte": "^0.487.0",
-		"better-sqlite3": "^12.2.0",
 		"drizzle-orm": "^0.44.2",
-		"rizom": "^0.13.3",
 		"sharp": "^0.34.3"
 	}
 }

@@ -1,7 +1,5 @@
 // See https://svelte.dev/docs/kit/types#app.d.ts
 
-import type { BaseDoc } from "rizom/types";
-
 // for information about these interfaces
 declare global {
 	namespace App {
@@ -14,4 +12,3 @@ declare global {
 }
 
 export {};
-
