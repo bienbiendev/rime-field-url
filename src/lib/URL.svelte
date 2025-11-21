@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { DocumentFormContext } from '@bienbien/rime/types';
 	import { Link } from '@lucide/svelte';
+	import type { DocumentFormContext } from 'rimecms/types';
 
 	const { form }: { form: DocumentFormContext } = $props();
 </script>

@@ -27,7 +27,11 @@ vite.config.ts.timestamp-*
 .rime
 db
 logs
+.rime
+.cache
 src/routes/(rime)
 static
 src/app.generated.d.ts
 drizzle.config.ts
+/+rime
+/+rime.generated

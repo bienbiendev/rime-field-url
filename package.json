@@ -1,5 +1,5 @@
 {
-	"name": "@bienbien/rime-field-url",
+	"name": "@rimecms/field-url",
 	"version": "0.2.2",
 	"homepage": "https://github.com/bienbiendev/rime-field-url",
 	"scripts": {
@@ -65,7 +65,7 @@
 		]
 	},
 	"dependencies": {
-		"@bienbien/rime": "^0.20.1",
+		"rimecms": "^0.23.4",
 		"@lucide/svelte": "^0.487.0",
 		"drizzle-orm": "^0.44.2",
 		"sharp": "^0.34.3"
