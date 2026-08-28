@@ -33,6 +33,11 @@ vite.config.ts.timestamp-*
 
 # package-specific
 static
+src/params
 src/routes/(rime)
 drizzle.config.ts
 /+rime
+
+.cache
+src/app.generated.d.ts
+src/rime.generated.d.ts
