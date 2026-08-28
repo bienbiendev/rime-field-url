@@ -1,6 +1,6 @@
 {
   "name": "@rimecms/field-url",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "homepage": "https://github.com/bienbiendev/rime-field-url",
   "publishConfig": {
     "access": "public"
