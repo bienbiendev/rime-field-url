@@ -1,3 +1,4 @@
+import { component } from 'rimecms/fields';
 import URL from './URL.svelte';
 
-export default URL;
+export default component(URL);
