@@ -11,14 +11,14 @@ npm i @rimecms/field-url
 // +rime/rime.config.server.ts
 import { Collection, rime } from '$rime/config'
 import url from '@rimecms/field-url'
-import { slug, text } from 'rimecms/fields'
+import { slug, text, component } from 'rimecms/fields'
 
 const pages = Collection.create('pages', {
   $url: (doc) => `/${doc.slug}`
   fields: [
     text('title').isTitle(),
     slug('slug').slugify('title'),
-    url(),
+    component(url),
   ]
 })
 ```
