@@ -1,18 +1,18 @@
 node_modules
-pnpm-lock.yaml
+dist
+build
+.svelte-kit
+.DS_Store
+Thumbs.db
+*.log
+pnpm-debug.log*
+*.code-workspace
 
-# Output
+# Deploy targets
 .output
 .vercel
 .netlify
 .wrangler
-/.svelte-kit
-/build
-/dist
-
-# OS
-.DS_Store
-Thumbs.db
 
 # Env
 .env
@@ -24,14 +24,17 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-.rime
-db
-logs
+# rime dev/codegen artifacts
 .rime
 .cache
-src/routes/(rime)
+db
+logs
++rime.generated
+*.generated.d.ts
+*.tgz
+
+# package-specific
 static
-src/app.generated.d.ts
+src/routes/(rime)
 drizzle.config.ts
 /+rime
-/+rime.generated
