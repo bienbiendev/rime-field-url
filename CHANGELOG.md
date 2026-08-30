@@ -1,5 +1,13 @@
 # @rimecms/field-url
 
+## 0.3.2
+
+### Patch Changes
+
+- Changed: update rimecms to 0.31.4
+
+- Changed: move config under default src/+rime
+
 ## 0.3.1
 
 ### Patch Changes
