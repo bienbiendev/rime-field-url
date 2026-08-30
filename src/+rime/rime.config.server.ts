@@ -2,14 +2,14 @@ import { env } from '$env/dynamic/public';
 import URL from '$lib';
 import { Collection, rime } from '$rime/config';
 import { adapterSqlite } from 'rimecms/adapter-sqlite';
-import { slug, text } from 'rimecms/fields';
+import { component, slug, text } from 'rimecms/fields';
 
 const Pages = Collection.create('pages', {
   fields: [
     //
     text('title').isTitle(),
     slug('slug').slugify('title'),
-    URL
+    component(URL)
   ],
   $url: (doc) => `${env.PUBLIC_RIME_URL}/${doc.slug}`
 });
