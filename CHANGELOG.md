@@ -1,5 +1,11 @@
 # @rimecms/field-url
 
+## 0.4.0
+
+### Minor Changes
+
+- [`74c9a08`](https://github.com/bienbiendev/rime-field-url/commit/74c9a0814386b78c0d039614e1f0481dec46789b) - Update to rime 0.32.0
+
 ## 0.3.2
 
 ### Patch Changes
